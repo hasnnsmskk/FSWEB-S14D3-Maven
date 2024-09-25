@@ -1,5 +1,5 @@
 import org.example.arge.CarSkeleton;
-import org.example.arge.ElectricCar;
+import org.example.arge.ElectircCar;
 import org.example.arge.GasPoweredCar;
 import org.example.arge.HybridCar;
 import org.example.company.Car;
@@ -31,7 +31,7 @@ public class MainTest {
     CarSkeleton carSkeleton;
     GasPoweredCar gasPoweredCar;
     HybridCar hybridCar;
-    ElectricCar electricCar;
+    ElectircCar electricCar;
 
 
     @BeforeEach
@@ -41,7 +41,7 @@ public class MainTest {
         holden = new Holden(4, "Holden");
         ford = new Ford(4, "Ford");
         carSkeleton = new CarSkeleton("Test", "test");
-        electricCar = new ElectricCar("Test", "test", 10, 5);
+        electricCar = new ElectircCar("Test", "test", 10, 5);
         gasPoweredCar = new GasPoweredCar("Test", "test", 10, 4);
         hybridCar = new HybridCar("Test", "test", 10, 5, 4);
     }
